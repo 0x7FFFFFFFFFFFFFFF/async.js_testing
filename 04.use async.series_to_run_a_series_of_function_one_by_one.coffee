@@ -1,5 +1,6 @@
 a = require "async"
-
+ 
+# Run a series of function one by one
 a.series [
     f1 = (cb) ->
         cb null, "result of f1"
